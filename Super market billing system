@@ -1,0 +1,13 @@
+# Supermarket Billing System
+
+class Item:
+    def __init__(self, name, quantity, price):
+        self.name = name
+        self.quantity = quantity
+        self.price = price
+
+    def total_price(self):
+        return self.quantity * self.price
+
+class SupermarketBilling:
+    def __init__(sel
